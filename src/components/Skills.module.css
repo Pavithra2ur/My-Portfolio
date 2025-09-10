@@ -1,0 +1,91 @@
+
+.skillsSection {
+  padding: 2rem 1rem 4rem 1rem;
+   background: linear-gradient(180deg,white,rgb(234, 199, 255),rgb(190, 198, 255));
+  text-align: center;
+}
+
+.skillsSection h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c2c2c;
+  margin-bottom: 2.5rem;
+  position: relative;
+  text-align: center;
+}
+
+/* underline for heading */
+.skillsSection h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #5e35b1;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.skillCard {
+  background: #c286f9;
+  border-radius: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 320px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.skillCard h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #000000;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.skillCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skillCard li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #2d2d2d;
+  position: relative;
+  padding-left: 20px;
+}
+
+/* add checkmark bullet */
+.skillCard li::before {
+  content: "";
+  color: #5e35b1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 0.9rem;
+  margin:5px;
+}
+
+/* hover effect */
+.skillCard:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  color: azure;
+  background: linear-gradient(60deg,rgb(118, 1, 206),rgb(178, 61, 255),rgb(192, 163, 250));
+}
+
+

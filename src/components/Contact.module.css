@@ -1,0 +1,111 @@
+.contact-section {
+  padding: 2rem 1rem 4rem 1rem;
+     background: linear-gradient(180deg,rgb(227, 178, 255),rgb(227, 178, 255),rgb(190, 198, 255),white);
+  text-align: center;
+
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c2c2c;
+  margin-bottom: 2.5rem;
+  position: relative;
+  text-align: center;
+}
+
+.contact-section h2::after{
+    content: "";
+  display: block;
+  width: 160px;
+  height: 4px;
+  background: #5e35b1;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+/* Two-column grid */
+.contact-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+}
+
+/* Form styles */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background: linear-gradient(135deg, #5e35b1, #7e57c2, #ab47bc);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+background: linear-gradient(135deg, #7e57c2, #5e35b1);
+}
+
+.contact-info{
+  text-align: center;
+  margin-top:20px ;
+}
+
+/* Right column: contact info & social links */
+.contact-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  margin: auto;
+}
+
+.contact-info a {
+  color: #7201d6;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  background: linear-gradient(135deg, #7f34ff, #5e35b1,rgb(234, 1, 214));
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+  background: linear-gradient(135deg,#d684ff,rgb(156, 57, 255),rgb(191, 0, 255)) ;
+  text-decoration: none;
+}
