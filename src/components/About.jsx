@@ -1,5 +1,5 @@
 import style from './About.module.css'
-import resume from '../assets/A.Pavithra.resume.pdf'
+import resume from '../assets/my resume.pdf'
 
 function About(){
   return(
@@ -30,7 +30,7 @@ function About(){
           <a href={resume} target="_blank" rel="noopener noreferrer" download>
              Download Resume
           </a>
-          <a href="https://drive.google.com/file/d/1_ztz2FLYqgfa7RMgSSFb-pbY3QsYuqUV/view?usp=drivesdk" target="_blank" >
+          <a href="https://drive.google.com/file/d/1rUMPXnbESf5L9GQC2gmnaOr8ouHGnv9l/view?usp=drivesdk" target="_blank" >
              view Resume
           </a>
         </div>
